@@ -1,0 +1,40 @@
+# Análisis PESTEL para una empresa de lencería en formato de diccionario
+
+pestel_lenceria = {
+    "Político": [
+        "Regulaciones sobre importación/exportación de textiles",
+        "Normativas de etiquetado y seguridad en productos",
+        "Políticas de género e inclusión en publicidad"
+    ],
+    "Económico": [
+        "Inflación y costos de producción de materiales",
+        "Nivel de poder adquisitivo del consumidor",
+        "Preferencia por productos sostenibles"
+    ],
+    "Social": [
+        "Cambio en percepciones sobre comodidad y belleza",
+        "Demanda de tallas inclusivas y diversidad de modelos",
+        "Influencia de redes sociales en tendencias de moda"
+    ],
+    "Tecnológico": [
+        "Desarrollo de tejidos inteligentes y ecológicos",
+        "Crecimiento del comercio electrónico",
+        "Uso de realidad aumentada para pruebas virtuales"
+    ],
+    "Ecológico": [
+        "Regulaciones sobre impacto ambiental en la industria textil",
+        "Uso de materiales reciclados y producción ética",
+        "Reducción de plásticos en el packaging"
+    ],
+    "Legal": [
+        "Protección de diseños exclusivos mediante propiedad intelectual",
+        "Regulaciones sobre publicidad y promesas de calidad",
+        "Leyes sobre condiciones laborales en la industria"
+    ]
+}
+
+# Mostrar el análisis PESTEL de forma estructurada
+for categoria, factores in pestel_lenceria.items():
+    print(f"\n{categoria}:")
+    for factor in factores:
+        print(f"- {factor}")
